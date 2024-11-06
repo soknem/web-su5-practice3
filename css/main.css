@@ -146,34 +146,40 @@ a {
   transform: scale(1.05);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
   border-color: #4e54c8;
+  filter: brightness(0.9); 
 }
 
 .box2:hover {
   transform: scale(1.05);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
   border-color: #2f80ed;
+  filter: brightness(0.9); 
 }
 
 .box3:hover {
   transform: scale(1.05);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
   border-color: #00b09b;
+  filter: brightness(0.9); 
 }
 
 .box4:hover {
   transform: scale(1.05);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
   border-color: #f2994a;
+  filter: brightness(0.9); 
 }
 
 .box5:hover {
   transform: scale(1.05);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
   border-color: #ff7676;
+  filter: brightness(0.9); 
 }
 
 .box6:hover {
   transform: scale(1.05);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
   border-color: #8e44ad;
+  filter: brightness(0.9); 
 }
