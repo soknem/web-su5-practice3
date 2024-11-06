@@ -202,12 +202,18 @@ body {
 }
 
 .item-8 {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
   background-color: #87ceeb;
   align-self: end;
   justify-self: start;
 }
 
 .item-9 {
+  display: inline-block;
+  width: 200px;
+  height: 120px;
   background-color: #98fb98;
   grid-column: span 2;
   align-self: center;
@@ -223,7 +229,7 @@ body {
     "header header"
     "content aside"
     "footer footer";
-  width: 100%;
+  width: 80%;
   padding: 10px;
   height: 100vh;
   box-sizing: border-box;
