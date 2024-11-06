@@ -63,12 +63,12 @@ a {
 }
 
 .text-inside {
-  font-size: 1.5rem ;
+  font-size: 1.5rem;
   text-align: center;
   width: 100%;
 }
 .text-inside2 {
-  font-size: 1rem ;
+  font-size: 1rem;
   text-align: center;
   width: 100%;
 }
@@ -82,4 +82,98 @@ a {
   color: black;
   border-radius: 8px;
   padding: 10px;
+}
+.main-title {
+  margin: 10px;
+}
+
+.main {
+  display: grid;
+  grid-template-rows: repeat(2, 200px);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.main-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.box1 {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+}
+
+.box2 {
+  background: linear-gradient(135deg, #56ccf2, #2f80ed);
+}
+
+.box3 {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+}
+
+.box4 {
+  background: linear-gradient(135deg, #f2994a, #f2c94c);
+}
+
+.box5 {
+  background: linear-gradient(135deg, #ff7676, #ff9a9e);
+}
+
+.box6 {
+  background: linear-gradient(135deg, #8e44ad, #c39bd3);
+}
+
+.box1:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-color: #4e54c8;
+}
+
+.box2:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-color: #2f80ed;
+}
+
+.box3:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-color: #00b09b;
+}
+
+.box4:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-color: #f2994a;
+}
+
+.box5:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-color: #ff7676;
+}
+
+.box6:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-color: #8e44ad;
 }
