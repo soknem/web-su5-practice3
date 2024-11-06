@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Definition</title>
+    <link rel="stylesheet" href="/css/item-placement.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="logo">
+        <b>CSS Grid Layout Examples</b>
+      </div>
+      <nav class="nav-link">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="grid-efinition.html">Grid Definition</a></li>
+          <li><a href="grid-areas.html">Grid Areas</a></li>
+          <li><a href="item-placement.html">Item Placement</a></li>
+          <li><a href="alignment.html">Alignment</a></li>
+          <li><a href="grid-item-alignment.html">Grid Items Alignment</a></li>
+          <li><a href="responsive-design.html">Responsive Design</a></li>
+        </ul>
+      </nav>
+      <div class="logo">
+        <b>Visit Us</b>
+      </div>
+    </header>
+
+    <div class="detail">
+      <h1>Item Placement</h1>
+      <pre class="description">
+        display: grid;
+        grid-template-rows: repeat(4, 100px);
+        grid-template-columns: repeat(4, 150px);
+    </pre
+      >
+    </div>
+
+    <div class="grid-container-placement">
+      <div class="grid-item item-1">
+        <div class="text-inside2">
+          <p>grid-row: 3;</p>
+          <p>grid-column: 2;</p>
+        </div>
+      </div>
+      <div class="grid-item item-2">
+        <div class="text-inside">
+          <p>grid-row: 2 / 5;</p>
+          <p>grid-column:3 / span 2;</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
